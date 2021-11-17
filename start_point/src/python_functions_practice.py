@@ -56,4 +56,11 @@ def number_to_short_month_name(month):
     }
     return months[month]
 
-    
+def volume_of_cube(length):
+      return length ** 3  
+
+def reverse_string(str):
+    return str[::-1]
+
+def fahrenheit_to_celsius(temp_fah):
+      return (temp_fah - 32) / 1.8
