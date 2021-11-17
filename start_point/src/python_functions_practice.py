@@ -22,4 +22,12 @@ def join_string(str_1,str_2):
 def  add_string_as_number(str_1,str_2):
     return int(str_1) + int(str_2)
 
-def number_to_full_month_name()    
+def number_to_full_month_name(month):
+    months = {
+        1:"january"
+        }
+    return months[month]
+
+def     
+
+    
